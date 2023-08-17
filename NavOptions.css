@@ -1,0 +1,10 @@
+.navOptions{
+    display: flex;
+
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 2rem;
+    z-index: 1000;
+
+}
+

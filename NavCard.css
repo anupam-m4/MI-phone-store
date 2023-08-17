@@ -1,0 +1,20 @@
+.NavCard{
+
+    width: 10rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.NavCard img{
+    width: 10rem;
+}
+
+.NavCard p{
+    margin: 0;
+}
+
+.NavCard span{
+
+    color: rgb(253, 94, 36);
+}

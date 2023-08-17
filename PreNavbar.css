@@ -1,0 +1,70 @@
+.preNav {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  color: white;
+}
+
+.preNav > div {
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.preNav > div > span {
+  color: rgb(127, 122, 122, 0.644);
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.preNav > div > a {
+  color: lightgray;
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+.preNav > div > a:hover {
+  color: white;
+}
+
+.preNav > div svg {
+  height: 20px;
+  fill: white;
+}
+
+.preNav > div svg:hover {
+  fill: white;
+}
+
+.menu-toogle {
+  position: absolute;
+  top: 30px;
+  right: 17px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.menu-toogle.active{
+  /* right: -100%; */
+}
+
+@media screen and (max-width: 991px) {
+  .preNav {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .preNav > div {
+    padding: 5px 1rem;
+    margin: 1rem;
+    /* display: none; */
+  }
+  .preNav > div > a {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+}

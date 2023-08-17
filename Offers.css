@@ -1,0 +1,21 @@
+.offersSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.offersSection img {
+  margin: 0 1rem;
+  transition: all 0.5s;
+}
+
+.offersSection img:hover {
+  box-shadow: 6px 6px 15px rgba(80, 78, 78, 0.966);
+}
+
+@media screen and (max-width: 991px) {
+  .offersSection{
+    overflow: hidden;
+  }
+}
